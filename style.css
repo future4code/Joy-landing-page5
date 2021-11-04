@@ -1,0 +1,107 @@
+*{
+	margin: 0;
+	padding: 0;
+	font-family: 'Raleway', sans-serif;
+}
+/*-------------HEADER---------------*/
+#logo{
+	max-width: 100px;
+	max-height: 100px;
+}
+.menu-lista{
+	list-style: none;
+	display: flex;
+	align-items: center;
+	gap: 40px;
+}
+a{
+	text-decoration: none;
+	
+}
+li a:hover{
+	color: #6ddad3;
+}
+.header-container{
+	display: flex;
+	color: white;
+	background-color: #466286;
+	align-items: center;
+	width: 100%;
+	max-width: 1500px;
+	margin: 0 auto;
+	padding: 15px 20px;
+	gap: 40px;
+}
+.header-content{
+	display: flex;
+	justify-content: space-between;
+	width: 100%;
+	align-items: center;
+}
+.menu-lista a{
+	color: white;
+	font-family: 'Raleway', sans-serif;
+	font-weight: bold;
+
+}
+
+/*------------- HEADER ---------------*/
+
+/*------------- MAIN ---------------*/
+.inicio{
+	background: url(https://www.embraplan.com.br/imagens/noticias/48733d9a-dc6f-4d1a-9c17-40738e093547.jpg) no-repeat;
+	background-size: cover;
+	width: 92.8%;
+	font-size: 30px;
+	color: white;
+	text-shadow: 2px 2px 5px black;
+	height: 70vh;
+	display: grid;
+	grid-template-columns: 1fr  500px 20px;
+	grid-template-rows: 1fr 100px;
+	padding: 75px;
+
+}
+.fundo{
+	background-color: white;
+	height:500px;
+	border-radius: 30px;
+	padding: 24px 16px;
+	display: flex;
+	flex-direction: column;
+	color: #191f23;
+	text-shadow: none;
+	padding-left: 100px;
+	font-size: 0.9em;
+	margin: 0px 0px 16px;
+}
+.text{
+	display: flex;
+	align-items: center;
+	justify-content: flex-start;
+}
+.formulario{
+	display: grid;
+
+	
+}
+/*---------FOOTER-------------*/
+.footer {
+	width: 100%;
+	max-width: 100%;
+	margin:0 auto;
+	padding: 15px 20px;
+	background-color: #466286;
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+	color: white;
+	font-size: 120%;
+	}
+
+	.redes-sociais :hover {
+        fill: #6ddad3;
+    }
+
+
+
