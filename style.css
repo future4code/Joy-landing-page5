@@ -1,13 +1,19 @@
+@font-face {
+	font-family: 'Matahari';
+	src: local('Matahari SemiBold'), local('Matahari-SemiBold'),
+	   url('Matahari-600SemiBold/Matahari-600SemiBold.woff2') format('woff2'),
+	    url('Matahari-600SemiBold/Matahari-600SemiBold.woff') format('woff'),
+	    url('Matahari-600SemiBold/Matahari-600SemiBold.ttf') format('truetype');
+	font-weight: 600;
+	font-style: normal;
+      }
 *{
 	margin: 0;
 	padding: 0;
-	font-family: 'Raleway', sans-serif;
+	font-family: 'Matahari';
 }
+
 /*-------------HEADER---------------*/
-#logo{
-	max-width: 100px;
-	max-height: 100px;
-}
 .menu-lista{
 	list-style: none;
 	display: flex;
@@ -30,75 +36,143 @@ li a:hover{
 	max-width: 1500px;
 	margin: 0 auto;
 	padding: 15px 20px;
-	gap: 40px;
+	gap: 20px;
+	position:fixed;
+}
+.header-container h1{
+	color: #6ddad3;
+	font-weight: bolder;
+	
+}
+
+#icone{
+	max-width: 40px;
+	max-height: 40px;
+	gap:10px
 }
 .header-content{
 	display: flex;
-	justify-content: space-between;
+	justify-content: space-around;
 	width: 100%;
 	align-items: center;
 }
 .menu-lista a{
 	color: white;
-	font-family: 'Raleway', sans-serif;
 	font-weight: bold;
+	cursor: pointer;
 
 }
-
+.header-content button{
+	border-radius: 10px ;
+	border: 1px solid #6ddad3;
+	background-color: #466286;
+	color: white;
+	width: 70px;
+	height: 40px;
+	cursor: pointer;
+}
+.header-content button:hover{
+	background-color: #6ddad3;
+}
 /*------------- HEADER ---------------*/
 
 /*------------- MAIN ---------------*/
 .inicio{
 	background: url(https://www.embraplan.com.br/imagens/noticias/48733d9a-dc6f-4d1a-9c17-40738e093547.jpg) no-repeat;
 	background-size: cover;
-	width: 92.8%;
+	max-width: 100%;
 	font-size: 30px;
 	color: white;
 	text-shadow: 2px 2px 5px black;
-	height: 70vh;
+	height: auto;
 	display: grid;
-	grid-template-columns: 1fr  500px 20px;
-	grid-template-rows: 1fr 100px;
+	grid-template-columns: 1fr 500px;
+	grid-template-rows: 1fr;
 	padding: 75px;
 
 }
 .fundo{
 	background-color: white;
-	height:500px;
+	height:70%;
 	border-radius: 30px;
-	padding: 24px 16px;
+	padding:50px 50px 50px 50px;
 	display: flex;
 	flex-direction: column;
 	color: #191f23;
 	text-shadow: none;
 	padding-left: 100px;
 	font-size: 0.9em;
-	margin: 0px 0px 16px;
+	margin: 70px 0px 16px;
+	max-width: 700px;
 }
 .text{
+	padding-top:100px;
 	display: flex;
+	flex-direction: column;
 	align-items: center;
-	justify-content: flex-start;
+	justify-content: center;
 }
-.formulario{
-	display: grid;
+.text p h1{
+	font-size: 3.5rem;
+    line-height: 4.25rem;
+	font-weight: bold;
+}
+form{
+	display: flex;
+	flex-direction: column;
+	align-items: flex-start;
+	justify-content: center;
+	font-size: 20px;
 
+}
+form select{
+	border-radius: 8px;
+	width: auto;
+	height: auto;
+	padding: 12px;
+	opacity: 0.5;
+	color: #191f23;
+	font-size: 1rem;
+	line-height: 1.5rem;
 	
+}
+form #city:hover{
+	opacity: 1;
+}
+form button{
+	display: flex;
+	align-self: center;
+	border-radius: 8px;
+	font-size: 1rem;
+	border: 1px solid #6ddad3;
+	line-height: 1.5rem;
+	background-color: #466286;
+	color: white;
+	width: 150px;
+	height: 50px;
+	text-align: center;
+	
+}
+form button:hover{
+	background-color: #6ddad3;
 }
 /*---------FOOTER-------------*/
 .footer {
-	width: 100%;
-	max-width: 100%;
+	width: 97.3%;
+	/*max-width: 100%;*/
 	margin:0 auto;
 	padding: 15px 20px;
 	background-color: #466286;
 	display: flex;
 	align-items: center;
-	justify-content: space-between;
+	justify-content:space-between;
 	color: white;
-	font-size: 120%;
+	
 	}
-
+.footer h1{
+	color: #6ddad3;
+	font-weight: bolder;
+}
 	.redes-sociais :hover {
         fill: #6ddad3;
     }
