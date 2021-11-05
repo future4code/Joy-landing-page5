@@ -1,9 +1,0 @@
-@font-face {
-    font-family: 'Matahari';
-    src: local('Matahari SemiBold'), local('Matahari-SemiBold'),
-        url('Matahari-600SemiBold.woff2') format('woff2'),
-        url('Matahari-600SemiBold.woff') format('woff'),
-        url('Matahari-600SemiBold.ttf') format('truetype');
-    font-weight: 600;
-    font-style: normal;
-  }
