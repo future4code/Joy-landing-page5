@@ -6,3 +6,4 @@
 
 ## Link Surge
 
+f4life.surge.sh
