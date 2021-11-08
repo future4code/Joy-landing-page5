@@ -7,9 +7,7 @@ function toggleMenu(e) {
 	const active = nav.classList.contains("active")
 	e.currentTarget.setAttribute("aria-expanded",'true')
 	active? e.currentTarget.setAttribute('aria-label','Fechar Menu'): e.currentTarget.setAttribute('aria-label','Abrir Menu')
-	if (active) {
-		
-	}
+
 }
 
 btnMobile.addEventListener('click', toggleMenu);

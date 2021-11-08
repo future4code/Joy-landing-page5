@@ -305,6 +305,7 @@ footer {
 	align-items: center;
 	justify-content:space-between;
 	color: white;
+
 	}
 	.logo{
 		margin-left: 2%;
@@ -314,6 +315,7 @@ footer {
 	font-weight: bolder;
 	margin-right: 20%;
 	margin-left: -30px;
+	font-family: 'Matahari'
 }
 .footer p{
 	margin-right: 20%;
